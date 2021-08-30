@@ -16,7 +16,7 @@
   <img align="center" alt="piw-Js" height="30" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="piw-cpp" height="30" width="64" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
   <img align="center" alt="piw-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="right" alt="piw-luffy" src="https://pa1.narvii.com/6443/335be6c7fa8b03d634520c5ac3fb9b750e27e697_128.gif">
+  <img align="right" alt="piw-luffy" src="https://i2.wp.com/sempreupdate.com.br/wp-content/uploads/2019/10/tux-linux-gif.gif?resize=256%2C256&ssl=1">
 
 </div>
   
