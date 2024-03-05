@@ -2,7 +2,7 @@
 
 - 🔭 I am a Computer Engineering student.
 - 😄 I'm looking for an opportunity to study abroad.
-- 📫 Contact me at: joaocpp16@gmail.com
+- 📫 Contact me at: d2021004266@unifei.edu.br
 ##
  <div>
   <a href="https://github.com/piwzin">
