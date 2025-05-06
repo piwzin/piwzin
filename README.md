@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 - 🔭 I am a Computer Engineering student.
-- 😄 I'm looking for an opportunity to study abroad.
+- 😄 Currently seeking an internship opportunity.
 - 📫 Contact me at: d2021004266@unifei.edu.br
 ##
  <div>
