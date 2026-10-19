@@ -1,8 +1,7 @@
 ### Hi there 👋
 
 - 🔭 I am a Computer Engineering student.
-- 😄 Currently seeking an internship opportunity.
-- 📫 Contact me at: d2021004266@unifei.edu.br
+- 📫 Contact me at: joaocpp16@gmail.com
 ##
  <div>
   <a href="https://github.com/piwzin">
