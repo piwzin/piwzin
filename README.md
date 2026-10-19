@@ -1,24 +1,33 @@
-### Hi there 👋
+name: Generate snake
 
-- 🔭 I am a Computer Engineering student.
-- 📫 Contact me at: joaocpp16@gmail.com
-##
- <div>
-  <a href="https://github.com/piwzin">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=piwzin&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/>
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=piwzin&layout=compact&langs_count=7&theme=github_dark"/>
-</div>
- 
- ##
-  
- <div> 
-  <a href="https://instagram.com/joaovpp_" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href = "mailto:joaocpp16@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/joaovpacheco" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-  
-  ##
- 
-  ![Snake animation](https://github.com/piwzin/cobrinha/blob/output/github-contribution-grid-snake.svg)
- 
-</div> 
-  
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate snake from the contribution grid
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#7c5cdb
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#a78bfa&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+
+      - name: Push to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
