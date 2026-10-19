@@ -7,10 +7,10 @@
 <br/><br/>
 
 <a href="https://github.com/piwzin">
-  <img align="top" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=piwzin&show_icons=true&include_all_commits=true&count_private=true&custom_title=Dev%20Stats&border_color=30363d&border_radius=0&bg_color=0d1117&title_color=39d353&text_color=c9d1d9&icon_color=a78bfa" />
+  <img align="top" alt="Dev stats" src="./profile/stats.svg" />
 </a>
 <a href="https://github.com/piwzin">
-  <img align="top" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=piwzin&layout=compact&langs_count=6&card_width=320&custom_title=Inventory&border_color=30363d&border_radius=0&bg_color=0d1117&title_color=39d353&text_color=c9d1d9" />
+  <img align="top" alt="Inventory" src="./profile/top-langs.svg" />
 </a>
 
 <br/><br/>
